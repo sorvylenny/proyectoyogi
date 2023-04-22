@@ -3,8 +3,12 @@
 .detail-card{
   display: flex;
   flex-direction: column;
-  background-color:rgb(235, 241, 241);
+  background-color: linear-gradient(#81c9cc, #6fd1d4, #b280e0, #8a4ec2 );
   margin: 2em;  
+  box-shadow: 0 0 2 1px;
+  border-radius: 1em;
+  text-align: center;
+  color: aliceblue;
 
   @media only screen and (min-width: 800px) {
     flex-direction: row;
@@ -13,12 +17,12 @@
   .top{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 2em;
 
     img{
-        max-width: 350px;
-        width: 100%;
+        max-width: 375px;
+        width: 120%;
     }
   }
   .bottom{
@@ -37,7 +41,26 @@
   }
   .table{
     max-width: 400px;
-    background-color:rgb(119, 145, 216);
+    background-color:rgb(167, 105, 209);
+    box-shadow: 0 2 0 4px;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 2em 2em;
+    color: aliceblue;  
+  
   }
+  .row{
+    flex-direction: row;
+    max-width: 900px;
+    align-content: center;
+    margin-right: 1em;
+    margin-left: 1em;
 
+    @media (min-width: 760px){
+      flex-direction: row;
+      position: relative;
+    }
+    
+  }
 }

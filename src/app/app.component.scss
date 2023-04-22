@@ -1,12 +1,17 @@
+
 :host {
   display: flex;
   flex-direction: column;
   height: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  text-justify: auto;
 }
 
 .content {
   margin: 0;
-  background-color: blue;
+  background: linear-gradient(#4eb1b4, #2a9094, #b280e0, #8a4ec2 );
   flex: 1;
   position: relative;
 
