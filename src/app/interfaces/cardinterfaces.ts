@@ -1,8 +1,4 @@
 
-export interface CardsResponse {
-    data: Card[];
-}
-
 export interface Card {
     id:            number;
     name:          string;
